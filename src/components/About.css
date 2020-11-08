@@ -1,0 +1,201 @@
+#about {
+    /* margin-top: 3rem; */
+}
+
+p {
+    color: #666;
+}
+
+h1, 
+h2,
+h3, 
+h4 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.about__data h1 {
+    text-align: center;
+}
+
+.about {
+    padding: 20px;
+    display: flex; 
+    flex-wrap: wrap-reverse;
+}
+
+.about__data h1 {
+    margin-top: 200px;
+}
+
+.profile__picture {
+    text-align: center;
+}
+
+
+.profile__picture img {
+    float: right;
+    margin-left: 15px;
+    height: 400px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+
+
+.about__team {
+    margin-bottom: 200px;
+    text-align: center;
+}
+
+.aboutteam__img {
+    width: 100%;
+}
+
+
+.about__team p {
+    text-align: left;
+}
+
+
+.about__data {
+    width: 60%;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+
+
+.about__company {
+    margin-top: 50px;
+    margin-bottom: 250px;
+}
+
+
+.about__productlist img {
+    margin-top: 50px;
+    float: right;
+}
+
+.about__productfeatures img {
+    margin-top: 50px;
+    float: right;
+}
+
+.about__productlist p {
+    margin-top: 30px;
+    margin-bottom: 200px;
+    text-align: left;
+}
+
+
+.about__productfeatures p {
+    margin-top: 50px;
+    margin-bottom: 200px;
+    text-align: left;
+}
+
+.contact__field {
+    background-color: #eee;
+    padding: 50px;
+    color: black;
+}
+
+.contact__field button {
+    padding: 15px 30px;
+    margin-bottom: 200px;
+    background-color: #00a8cc;
+    color: white;
+    border: 0;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-right: 10px;
+    box-shadow: 0 2px 4px #666;
+}
+
+.contact__field button:hover {
+    background-color: #777;
+    color: white;
+}
+
+
+.about__strengths {
+    text-align: center;
+
+}
+
+.about__strengths img {
+    height: 400px;
+}
+.strenght__list p {
+    background-color: #eee;
+    padding: 30px;
+    text-align: left;
+
+}
+
+.strenght__list {
+    width: fit-content;
+    margin: 0 auto;
+    padding: 30px;
+    display: flex;
+}
+
+
+
+
+
+@media only screen and (max-width: 800px) {
+
+    .profile__picture img {
+        height: 350px;
+        float: none;
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+
+    .about__data {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .about__productlist img {
+        float: none;
+        height: 200px;
+        width: 100%;
+    }
+
+    .about__productlist {
+        text-align: center;
+    }
+
+    .about__productfeatures {
+        text-align: center;
+    }
+    
+    .about__productfeatures img {
+        float: none;
+        height: 200px;
+        width: 100%;
+    }
+
+    .about__strengths img {
+        width: 100%;
+    }
+    
+
+    .contact__field button {
+        margin-bottom: 15px;
+        padding: 10px 25px;
+    }
+
+    .strenght__list {
+        padding: 10px;
+    }
+
+    .strenght__list p {
+        padding: 0;
+    }
+}
+
+
+
+

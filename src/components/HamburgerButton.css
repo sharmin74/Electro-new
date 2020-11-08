@@ -1,0 +1,10 @@
+.hamburgerButton {
+    padding: 0 30px;
+    color: white;
+}
+
+@media only screen and (min-width: 800px) {
+    .hamburgerButton {
+        display: none;
+    }
+}

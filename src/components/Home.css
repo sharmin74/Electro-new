@@ -1,0 +1,164 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#home {
+    text-align: center;
+}
+
+p {
+    color: #666;
+}
+
+h1,
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* .particles__bg {
+    height: 700px;
+} */
+
+
+/* @import url('https://fonts.googleapis.com/css?family=Exo:400,700'); */
+
+.home__btn Button {
+    margin-bottom: 100px;
+}
+
+.home__btn {
+    text-decoration: none;
+}
+
+
+/* heading text */
+
+.home__heading {
+    position: absolute;
+    top: 35vh;
+    text-align: center;
+    color: #eee;
+}
+
+.home__heading h1 {
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.home__whitebtn {
+    padding: 20px 30px;
+    /* background-color: #1a1b1c; */
+    background-color: transparent;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    color: white;
+    border: 2px solid #eee;
+}
+
+.home__whitebtn:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+p {
+    color: #666;
+}
+
+
+/* team content */
+
+.home__data {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1 h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.home__datacontainer {
+    background-color: white;
+    padding: 3px;
+    /* box-shadow: 1px 6px 20px #d2d3c9; */
+}
+
+.home__team {
+    margin-top: 200px;
+}
+
+.home__team p {
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top: 40px;
+}
+
+
+/* product section */
+
+.homeproduct__headline {
+    background-color: #eee;
+    /* background-color: #F8F9FA; */
+    padding: 10px;
+    /* box-shadow: 1px 6px 20px #d2d3c9; */
+}
+
+.homeproduct__headline h3 {
+    margin-top: 100px;
+}
+
+.homeproduct__headline p {
+    margin-top: 50px;
+    padding-bottom: 100px;
+}
+
+.home__prodContainer {
+    display: flex;
+    justify-content: space-evenly;
+    bottom: 70px;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.home__product {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.home__product img {
+    border-radius: 10px;
+    height: 200px;
+}
+
+@media only screen and (max-width: 800px) {
+    .home {
+        text-align: center;
+    }
+    .home__heading {
+        /* padding-left: 20px; */
+        text-align: center;
+    }
+    .home__heading h1 {
+        width: 100%;
+        font-size: 25px;
+    }
+    .home__team p {
+        text-align: center;
+    }
+    .home__data {
+        width: 100%;
+    }
+    .home__heading p {
+        width: 100%;
+    }
+    .homeproduct__headline p {
+        text-align: left;
+    }
+    .particles__bg {
+        height: 600px;
+    }
+}

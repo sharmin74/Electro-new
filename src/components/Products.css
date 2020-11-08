@@ -1,0 +1,47 @@
+.products {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.products__row {
+    text-align: left;
+    margin-top: 100px;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.data {
+    width: 40%;
+}
+
+.products__img {
+    width: 60%;
+}
+
+.products__img {
+    height: 300px;
+    width: 320px;
+}
+
+.products__link {
+    text-decoration: none;
+}
+
+.products__subname {
+    margin-top: 0;
+}
+
+.products__para {
+    margin-bottom: 0;
+}
+
+@media only screen and (max-width: 800px) {
+    .products__row {
+        text-align: center;
+    }
+    .data {
+        width: 85%;
+    }
+}
