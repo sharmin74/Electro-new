@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import './Products.css'
 import p1 from './photos/Products/p1.JPG'
 import p2 from './photos/Products/p2.JPG'
@@ -14,6 +14,9 @@ import EachProduct from './EachProduct'
 import { ListItem } from '@material-ui/core'
 
 function Products() {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    });
     return (
         <div className='products'>
             <h1>Our Products</h1>

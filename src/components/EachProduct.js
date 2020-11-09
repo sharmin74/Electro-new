@@ -2,7 +2,7 @@ import React from 'react'
 import './Products.css'
 import Button from '@material-ui/core/Button';
 import WhatsAppIcon from '@material-ui/icons/WhatsApp';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import ListItems from './ListItems';
 // import { Carousel } from 'react-responsive-carousel';
@@ -26,16 +26,9 @@ function EachProduct(props) {
             <ListItems line={props.line4} />
             </p>
             <a style={{textDecoration:"none"}} href="https://api.whatsapp.com/send?phone=919717389303" target="false">
-            <Button 
-        variant="contained" 
-        color="default" 
-        style={{
-            backgroundColor: "#1a1b1c", 
-            color: 'white'
-            }}
-        >
-            Ask on WhatsApp  <WhatsAppIcon />
-        </Button>
+            <button className="products__btn">
+            Ask on WhatsApp  <WhatsAppIcon className='whatsApp__icon' />
+        </button>
         </a>
         </div>
     </div>

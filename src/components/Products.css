@@ -37,6 +37,27 @@
     margin-bottom: 0;
 }
 
+.products__btn {
+    display: flex;
+    align-items: center;
+    padding: 10px 23px;
+    margin-bottom: 100px;
+    background-color: #00a8cc;
+    color: white;
+    border: 0;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px #666;
+}
+
+.whatsApp__icon {
+    margin-left: 5px;
+}
+
+.products__btn:hover {
+    background-color: #333333;
+}
+
 @media only screen and (max-width: 800px) {
     .products__row {
         text-align: center;

@@ -16,25 +16,24 @@ function Navbar(props) {
         }
     }
     window.addEventListener('scroll', changeBg)
-    function changeClass() {
-        switch(window.location.pathname){
-          case '/about':
-            return 'linkColour';
-          case '/products':
-            return 'linkColour';
-          case '/contact-us':
-            return 'linkColour';
-          default:
-            return 'whiteColour';
-        }
-      }
-      let color = changeClass();
-      let className;
-      if(navbar && color === '/'){
-            return className = 'navbar navbar__small active'
-      }
+    // const [navColour, setNavColour] = useState(false);
+    // function changeColour() {
+    //     if(window.location.pathname !== '/'){
+    //       setNavColour(true);
+    //       console.log('transparent');
+    //     } else{
+    //       setNavColour(false);
+    //       console.log('white');
+    //     }
+    //   }
+    //   let color = changeColour;
+    //   console.log(color);
+      // let classes;
+      // if(navbar && color === 'whiteColour'){
+      //       return classes = 'navbar navbar__small active'
+      // }
     return (
-        <div className={navbar ? 'navbar navbar__small active' : 'navbar navbar__small'}>
+        <div className={ navbar ? 'navbar navbar__small active' : 'navbar navbar__small' }>
             <Link  className='navbar__eachItem' to='/'>
                 <div className='navbar__logo'>
                     <img src={logo} alt="logo"/>

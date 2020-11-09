@@ -15,6 +15,7 @@
 .active {
     background-color: white;
     color: black;
+    box-shadow: 0 2px 4px lightgray;
     /* border-bottom: 1px solid lightgray; */
     z-index: 20;
 }
@@ -48,10 +49,12 @@
 
 @media only screen and (max-width: 800px) {
     .navbar__small {
-        /* background-color: beige; */
-        height: 100px;
+        height: 80px;
     }
     .navbar__items {
         display: none;
+    }
+    .active {
+        color: black;
     }
 }

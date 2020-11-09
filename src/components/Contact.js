@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import './Contact.css'
 import contact from './photos/contact1.jpeg'
 import CallIcon from '@material-ui/icons/Call';
@@ -43,24 +43,11 @@ function validateForm(e) {
         });
         e.target.reset()
     }
-  
-        
-    //   <form className="contact-form" onSubmit={sendEmail}>
-    //     <input type="text" name="phone" />
-    //     <label>Name</label>
-    //     <input type="text" name="name" />
-    //     <label>Email</label>
-    //     <input type="email" name="email" />
-    //     <label>Message</label>
-    //     <textarea name="message" />
-    //     <input type="submit" value="Send" />
-    //   </form>
-
-
-
-
 
 function Contact() {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    });
     return (
         <div className='contact'>
             <div className='contactUs'>
@@ -111,7 +98,7 @@ function Contact() {
             <br/><br/><br/>
             <Input className='inp' placeholder='Message' type="text" name="message"/>
             <br/><br/><br/>
-            <Button variant="contained" color="default" type='submit'>Submit</Button>
+            <button className='contact__us-button' type='submit'>Submit</button>
         </form>
                      <br/> 
                    <small className='success__message'>Thanks for getting in touch with us. <br/> We will reach to you as soon as possible.</small>

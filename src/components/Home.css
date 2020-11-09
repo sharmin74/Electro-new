@@ -15,16 +15,19 @@ h3 {
     font-family: 'Montserrat', sans-serif;
 }
 
-
-/* .particles__bg {
-    height: 700px;
-} */
-
-
-/* @import url('https://fonts.googleapis.com/css?family=Exo:400,700'); */
-
-.home__btn Button {
+.home__btn>button {
+    padding: 15px 30px;
     margin-bottom: 100px;
+    background-color: #00a8cc;
+    color: white;
+    border: 0;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px #666;
+}
+
+.home__btn>button:hover {
+    background-color: #333333;
 }
 
 .home__btn {
@@ -49,7 +52,6 @@ h3 {
 
 .home__whitebtn {
     padding: 20px 30px;
-    /* background-color: #1a1b1c; */
     background-color: transparent;
     font-weight: bolder;
     letter-spacing: 2px;
@@ -71,8 +73,14 @@ p {
 /* team content */
 
 .home__data {
+    text-align: center;
     width: 80%;
     margin: 0 auto;
+}
+
+.home__data>p {
+    margin-bottom: 0;
+    text-align: center;
 }
 
 h1 h3 {
@@ -100,9 +108,7 @@ h1 h3 {
 
 .homeproduct__headline {
     background-color: #eee;
-    /* background-color: #F8F9FA; */
     padding: 10px;
-    /* box-shadow: 1px 6px 20px #d2d3c9; */
 }
 
 .homeproduct__headline h3 {
@@ -110,8 +116,7 @@ h1 h3 {
 }
 
 .homeproduct__headline p {
-    margin-top: 50px;
-    padding-bottom: 100px;
+    margin: 30px 0;
 }
 
 .home__prodContainer {
@@ -139,8 +144,29 @@ h1 h3 {
         text-align: center;
     }
     .home__heading {
-        /* padding-left: 20px; */
         text-align: center;
+    }
+    .home__datacontainer {
+        width: 90%;
+        margin: 50px auto 0 auto;
+    }
+    .homeproduct__headline {
+        text-align: center;
+        padding: 20px 0;
+    }
+    .homeproduct__headline h2 {
+        margin-top: 0px;
+    }
+    .homeproduct__headline p {
+        margin: 0;
+        text-align: center;
+    }
+    .home__data {
+        text-align: center;
+    }
+    .home__data>p {
+        width: 85%;
+        margin: 20px auto;
     }
     .home__heading h1 {
         width: 100%;
@@ -154,9 +180,6 @@ h1 h3 {
     }
     .home__heading p {
         width: 100%;
-    }
-    .homeproduct__headline p {
-        text-align: left;
     }
     .particles__bg {
         height: 600px;

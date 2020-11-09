@@ -114,7 +114,7 @@ function Home() {
                         <h2>Volt-Amp Logic Controls</h2>
                         <p>We are a reputed manufacturer and supplier of Process Control Electronic Instruments. High quality components and parts are used for manufacturing these instruments. Our instruments are completely digitalized and are mostly automatic. The instruments we offer are available in standard specifications at prices that are easy on the pocket.</p>
                         <Link to='/about' className='home__btn' >
-                            <Button style={{backgroundColor:"#00a8cc"}} variant="contained" color="default">ABOUT US</Button>        
+                            <button>ABOUT US</button>        
                          </Link>
                     </div>
                 </div>
@@ -130,7 +130,7 @@ function Home() {
                 <h2>Our Products</h2>
                 <p>Volt Amp Logic Controls Established in the year 2000, ‘Volt-Amp Logic Controls’ is a trusted business entity engaged in manufacturing and supplying Electronic Instruments. Our products have been accredited by the domain veterans for the exceptional life span and cost-effectiveness. As a sole proprietorship firm, we adhere to honest and direct business principles while making deals with our customers. We boost of having an advance infrastructure which enables us to accomplish all processes efficiently. The quality standards offered by us have</p>
                 <Link to='/products' className='home__btn' >
-                    <Button style={{backgroundColor:"#00a8cc"}} variant="contained" color="default">EXPLORE OUR PRODUCTS</Button>        
+                    <button>EXPLORE OUR PRODUCTS</button>        
                 </Link>
             </div>
         </div>

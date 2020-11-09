@@ -1,10 +1,13 @@
 import { Link } from 'react-router-dom';
-import React from 'react'
+import React, {useEffect} from 'react'
 import './About.css'
 
 
 
 function About() {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    });
     return <div id='about'>
         <div className='about'>
             <div className='about__data'>
@@ -22,10 +25,6 @@ function About() {
                         The proprietor of our organization <b>‘Mr. Ernest Lobo’</b> has efficaciously handled the managerial activities. His visionary skills and creative mind have been the secret behind our speedy success in the industry.   
                     </p>
                 </div>
-                
-
-
-
 
                 <div className='about__team'>
                     <h3>Our Team</h3>
@@ -44,11 +43,6 @@ function About() {
                         Client servicing personnel</p> */}
                 </div>
 
-
-
-
-
-
                 <div className='about__productlist'>
                     <img src='https://t4.ftcdn.net/jpg/02/20/78/61/240_F_220786142_sTM5ZCbEsFILI9nBhJzPt4R4QYRvhEmQ.jpg'></img>
                     <h2>List of products we offer</h2>
@@ -66,10 +60,7 @@ function About() {
                         </ul>
                     </p>
                 </div>
-
-
-
-                <div className='about__productfeatures'>
+               <div className='about__productfeatures'>
                     <img src='https://t3.ftcdn.net/jpg/02/87/97/90/240_F_287979035_hWMKC46PUC78VxmhELzeRioL8vFoy2kV.jpg'></img>
                     <h2>Feature</h2>
                     <p>       
@@ -82,10 +73,6 @@ function About() {
                         </ul> 
                     </p>
                 </div>
-
-
-
-
                 <div className='about__strengths'>
                     <h3>Our Strengths</h3>
                     <p className='strenght__data'>We believe that our growth is the reciprocal of customer’s growth. Hence, we have created a mutual environment where our clients and we can together grow. We work on our loopholes to avoid any kind of quality dip. Certain reasons owing to which we are thriving in the domain are as follows:</p>
@@ -106,11 +93,7 @@ function About() {
                         </p>
                         </div>
                     </div>
-                </div>
-
-
-
-                
+                </div> 
             </div>
         </div>
 

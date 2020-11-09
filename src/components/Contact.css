@@ -25,13 +25,27 @@
     width: auto;
 }
 
-
 .success__message {
     display: none;
 }
 
 .failure__message {
     display: none;
+}
+
+.contact__us-button {
+    padding: 15px 30px;
+    margin-bottom: 100px;
+    background-color: #00a8cc;
+    color: white;
+    border: 0;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px #666;
+}
+
+.contact__us-button:hover {
+    background-color: #333333;
 }
 
 
