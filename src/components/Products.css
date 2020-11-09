@@ -62,7 +62,15 @@
     .products__row {
         text-align: center;
     }
+    .products {
+        text-align: center;
+    }
     .data {
-        width: 85%;
+        text-align: center;
+        width: 90%;
+        margin: auto;
+    }
+    .products__btn {
+        text-align: center;
     }
 }
